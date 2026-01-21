@@ -9,7 +9,7 @@ It allows you to upload/keep PDF files, convert them into embeddings, store them
 
 1. Install dependencies from `requirements.txt`
 2. Put your PDF files inside the `data/` folder
-3. Run `ingest.py` to create embeddings + store them in vector DB
+3. Run `run_ingest.py` to create embeddings + store them in vector DB
 4. Run the FastAPI application using `uvicorn`
 5. Open the web UI and ask questions
 
