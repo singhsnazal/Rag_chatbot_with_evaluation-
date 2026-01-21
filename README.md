@@ -1,4 +1,4 @@
-# Hanuman God RAG - Web UI (FastAPI)
+#  RAG - Web UI (FastAPI)
 
 This project is a **Retrieval-Augmented Generation (RAG)** web application built using **FastAPI**.  
 It allows you to upload/keep PDF files, convert them into embeddings, store them in a **vector database**, and ask questions through a simple Web UI.
@@ -17,12 +17,10 @@ It allows you to upload/keep PDF files, convert them into embeddings, store them
 
 ## ✅ Installation & Setup
 
-### 1) Install requirements
-Install all required dependencies using:
+
 
 ```bash
 pip install -r requirements.txt
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
 uvicorn app:app --reload
